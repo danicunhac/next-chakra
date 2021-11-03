@@ -1,23 +1,24 @@
-import { Title } from '@/common';
+import { Button } from '@chakra-ui/button';
+import { Flex } from '@chakra-ui/layout';
 import Head from 'next/head';
-import { FaGithub } from 'react-icons/fa';
-import { Wrapper } from './styles';
 
 export const Home = () => {
   return (
-    <Wrapper>
+    <Flex w="100vw" h="100vh" align="center" justify="center">
       <Head>
-        <title>Next.js Boilerplate</title>
-        <meta
-          name="description"
-          content="Next App boilerplate, typescript + eslint + prettier + editorconfig + jest + styled-components"
-        />
-        <link rel="icon" href="/favicon.ico" />
+        <title>Next Chakra | Boilerplate</title>
       </Head>
-      <Title text="Next.js Boilerplate w/ Common Layout Design" />
-      <a href="https://github.com/danicunhac/next-boilerplate">
-        <FaGithub size={32} color="#000" style={{ marginTop: 32 }} />
-      </a>
-    </Wrapper>
+      <Flex
+        flexDir="column"
+        as="form"
+        w="100%"
+        maxW={360}
+        bg="gray.800"
+        p={8}
+        borderRadius={8}
+      >
+        <Button colorScheme="pink">Next Chakra</Button>
+      </Flex>
+    </Flex>
   );
 };
