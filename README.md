@@ -22,7 +22,7 @@
 Create a new application using `create-next-app` with the `-e | --example` flag pointing to this repository's _url_, like so:
 
 ```bash
-npx create-next-app@latest --example https://github.com/danicunhac/next-chraka
+npx create-next-app@latest --example https://github.com/danicunhac/next-chakra
 ```
 
 > **Tip:** You can find `create-next-app`'s documentation at [https://nextjs.org/docs/api-reference/create-next-app](https://nextjs.org/docs/api-reference/create-next-app).
