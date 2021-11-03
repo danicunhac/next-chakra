@@ -1,5 +1,5 @@
 <p align="center"><img width="150px" src="public/next-js-logo.svg" />
-<h1 align="center" style="font-size: 64px;">Boilerplate</h1>
+<h1 align="center" style="font-size: 64px;">+ Chakra Boilerplate</h1>
 </p>
 
 <p align="center">You can follow <a href="https://www.notion.so/Common-Layout-Design-382603a09b23437eb344629c254e40d6">Common Layout Design</a> for Next.js Apps</p>
@@ -15,14 +15,14 @@
 - [Husky](https://typicode.github.io/husky)
 - [Jest](https://jestjs.io/)
 - [React Testing Library](https://testing-library.com/)
-- [styled-components](https://styled-components.com/)
+- [Chakra-ui](https://chakra-ui.com/)
 
 ## 🔥️ Starting the project
 
 Create a new application using `create-next-app` with the `-e | --example` flag pointing to this repository's _url_, like so:
 
 ```bash
-npx create-next-app@latest --example https://github.com/danicunhac/next-boilerplate
+npx create-next-app@latest --example https://github.com/danicunhac/next-chraka
 ```
 
 > **Tip:** You can find `create-next-app`'s documentation at [https://nextjs.org/docs/api-reference/create-next-app](https://nextjs.org/docs/api-reference/create-next-app).
